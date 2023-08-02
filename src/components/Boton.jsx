@@ -1,6 +1,6 @@
-import "../Boton.css";
+import "./Boton.css";
 
-const Boton= (text)=>{
+const Boton= ({text})=>{
     return <button className="boton">{ text }</button>
 }
 

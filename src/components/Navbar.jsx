@@ -1,13 +1,13 @@
 import CartWindget from "./CartWindget";
 import Boton from "./Boton"
 import "../components/Navbar.css"
-const Navbar =() =>{
+const Navbar = () =>{
     return (<navbar className="navbar">
-        <div className="logo"></div>
-        <Boton text = "Zapatillas"/>
-        <Boton text = "Indumentaria"/>
-        <Boton text = "Accesorios"/>
-        <CartWindget cont="1"/>
+        <img src="./" />
+        <Boton text = {"Zapatillas"}/>
+        <Boton text = {"Indumentaria"}/>
+        <Boton text = {"Accesorios"}/>
+        <CartWindget cont="{1}"/>
     </navbar>
     )
 }
